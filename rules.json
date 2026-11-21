@@ -1,0 +1,30 @@
+[
+  {
+    "id": "spf_fail",
+    "field": "spf",
+    "equals": "fail",
+    "score": 45,
+    "reason": "spf fail"
+  },
+  {
+    "id": "dkim_fail",
+    "field": "dkim",
+    "equals": "fail",
+    "score": 35,
+    "reason": "dkim fail"
+  },
+  {
+    "id": "urgent_request",
+    "field": "urgency",
+    "equals": "high",
+    "score": 20,
+    "reason": "urgent request"
+  },
+  {
+    "id": "domain_mismatch",
+    "field": "domain_mismatch",
+    "equals": true,
+    "score": 40,
+    "reason": "domain mismatch"
+  }
+]

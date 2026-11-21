@@ -1,0 +1,11 @@
+[
+  {
+    "id": "synthetic-001",
+    "spf": "fail",
+    "dkim": "fail"
+  },
+  {
+    "id": "synthetic-002",
+    "note": "benign"
+  }
+]
